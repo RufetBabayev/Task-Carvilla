@@ -1,0 +1,53 @@
+.p-1 {
+  padding: 0.5rem;
+}
+
+.px-1 {
+  padding: 0 0.5rem;
+}
+
+.py-1 {
+  padding: 0.5rem 0;
+}
+.p-2 {
+  padding: 1rem;
+}
+
+.px-2 {
+  padding: 0 1rem;
+}
+
+.py-2 {
+  padding: 1rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+.transition-ease {
+  transition: all 0.5s ease;
+}
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 5px;
+  height: 60px;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--color-purple--500);
+  color: var(--color-white);
+  &:hover {
+    background-color: var(--color-purple-hover);
+  }
+}
+
+.btn-md {
+  width: 230px;
+}
+.btn-sm {
+  width: 160px;
+}
