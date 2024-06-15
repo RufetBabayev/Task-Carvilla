@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
     <main>
       <div class="overlay"></div>
       <!-- welcome-page -->
-      <section class="container">
+      <section id="home" class="container">
         <header>
           <nav>
             <h2>CARVILLA</h2>
             <div class="nav--items">
-              <a class="transition-ease" href="#">HOME</a>
-              <a class="transition-ease" href="#">SERVICE</a>
+              <a class="transition-ease" href="#home">HOME</a>
+              <a class="transition-ease" href="#service">SERVICE</a>
               <a class="transition-ease" href="#">FEATURED CARS</a>
               <a class="transition-ease" href="#">NEW CARS</a>
               <a class="transition-ease" href="#"> BRANDS</a>
@@ -82,10 +86,33 @@
           </div>
         </form>
       </section>
-      <section class="services--container d-flex-center">
-        <div>
-          <p>Lorem ipsum dolor sit amet.</p>
-          <h4>lorem2</h4>
+      <section id="service" class="services--container d-flex-center">
+        <div class="service--div transition-ease">
+          <i class="fa-solid fa-car fontCar"></i>
+          <a href="#" class="service--a">Largest Dealership of Cars</a>
+          <p class="service--p">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            <br />
+            den fugit sed quia.
+          </p>
+        </div>
+        <div class="service--div transition-ease">
+          <i class="fa-solid fa-car-side fontCar"></i>
+          <a href="#" class="service--a">Unlimited Repair Warranty</a>
+          <p class="service--p">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            <br />
+            den fugit sed quia
+          </p>
+        </div>
+        <div class="service--div transition-ease">
+          <i class="fa-solid fa-car-burst fontCar"></i>
+          <a href="#" class="service--a">Insurance Support</a>
+          <p class="service--p">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            <br />
+            den fugit sed quia.
+          </p>
         </div>
       </section>
     </main>

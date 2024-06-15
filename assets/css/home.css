@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 main {
   background-image: url(../img/welcome-banner.jpg);
   width: 100%;
@@ -99,23 +102,4 @@ select {
   background-color: var(--color-grey-200);
   height: 60px;
   outline: none;
-}
-
-.services--container {
-  background-color: aliceblue;
-  margin-top: 15rem;
-  padding: 5rem;
-}
-
-h4 {
-  position: relative;
-  &::before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 2px;
-    background-color: var(--color-purple--500);
-    top: 40px;
-    left: 20px;
-  }
 }

@@ -51,3 +51,42 @@
 .btn-sm {
   width: 160px;
 }
+
+.service--div {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 25%;
+  height: 45vh;
+  background-color: var(--color-white);
+  margin-left: 2rem;
+  &:hover {
+    background-color: var(--color-div-hover);
+    i,
+    a,
+    p {
+      color: var(--color-white);
+    }
+  }
+}
+.fontCar {
+  font-size: 50px;
+  margin: 25% 0 0 43%;
+  color: var(--color-font);
+}
+.service--a {
+  color: var(--color-a);
+  text-align: center;
+}
+
+.service--p {
+  color: var(--color-p);
+  text-align: center;
+  margin: 20px 15px 0 15px;
+  font-size: 16px;
+}
+
+.service--span {
+  color: var(--color-purple--500);
+  height: 20px;
+  width: 10px;
+}

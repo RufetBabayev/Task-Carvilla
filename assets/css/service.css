@@ -1,0 +1,10 @@
+.services--container {
+  background-color: var(--color-white);
+  margin-top: 15rem;
+  padding: 5rem;
+  a {
+    display: block;
+    margin: 35px 0 0 20px;
+    font-size: 20px;
+  }
+}
