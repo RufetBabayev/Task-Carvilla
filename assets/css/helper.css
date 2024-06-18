@@ -53,10 +53,15 @@
 }
 
 .service--div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  width: 25%;
-  height: 45vh;
+  width: 300px;
+  height: 350px;
   background-color: var(--color-white);
   margin-left: 2rem;
   &:hover {
@@ -70,39 +75,102 @@
 }
 .fontCar {
   font-size: 50px;
-  margin: 25% 0 0 43%;
   color: var(--color-font);
 }
 .service--a {
   color: var(--color-a);
-  text-align: center;
+  white-space: nowrap;
 }
-
 .service--p {
-  color: var(--color-p);
-  text-align: center;
-  margin: 20px 15px 0 15px;
-  font-size: 16px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 3px;
+    background-color: #4e4ffa;
+  }
 }
 .center-write {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-
   p {
-    color: var(--color-a);
+    font-size: 1rem;
     margin-bottom: 10px;
-    font-size: 16px;
+    color: var(--color-a);
   }
   h2 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 500;
-    color: var(--color-a);
     padding-bottom: 35px;
+    color: var(--color-a);
   }
 }
+
 .featuredcars--box {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   width: 17%;
-  height: 30vh;
+  height: 32vh;
   margin-left: 2rem;
+
+  span {
+    display: inline-block;
+    margin-top: 70px;
+    word-spacing: 10px;
+    color: var(--color-p);
+  }
+  h3 {
+    color: var(--color-a);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  h4 {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    font-weight: 500;
+    color: var(--color-a);
+  }
+  p {
+    color: var(--color-p);
+    margin-top: 10px;
+  }
+}
+figure {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+img {
+  margin-top: 60px;
+}
+.humanSay--div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 300px;
+  height: 350px;
+  background-color: var(--bgcolor-container);
+  margin: 100px 0 0 32px;
+  &:hover {
+    background-color: var(--color-div-hover);
+    i,
+    a,
+    p {
+      color: var(--color-white);
+    }
+  }
 }
