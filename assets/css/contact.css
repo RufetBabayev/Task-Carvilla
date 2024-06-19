@@ -60,9 +60,15 @@ li:hover {
 .footer-bottom {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  span {
+    color: #a8a9bf;
+    margin-left: 20px;
+  }
 }
 
 hr {
-  background-color: aqua;
+  background-color: #434859;
   height: 2px;
 }
