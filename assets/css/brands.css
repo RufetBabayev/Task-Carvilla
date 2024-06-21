@@ -15,13 +15,3 @@
     object-fit: contain;
   }
 }
-
-@media (max-width: 992px) {
-  .item a:nth-child(2n-2) {
-    display: none;
-  }
-
-  .item {
-    justify-content: space-evenly;
-  }
-}

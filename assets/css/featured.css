@@ -105,20 +105,3 @@
     border-top: 1px solid rgb(211, 210, 210);
   }
 }
-
-@media (max-width: 992px) {
-  .featuredcars--div {
-    padding: 1.01rem;
-  }
-
-  .humanSay--div:last-child {
-    display: none;
-  }
-}
-@media (max-width: 480px) {
-  .humanSay--container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
