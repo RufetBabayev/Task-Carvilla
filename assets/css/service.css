@@ -58,5 +58,11 @@
   }
   .service--div {
     margin-left: 1rem;
+    min-width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .service--div {
+    min-width: 300px;
   }
 }
