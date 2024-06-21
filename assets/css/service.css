@@ -50,3 +50,16 @@
     background-color: #4e4ffa;
   }
 }
+
+@media (max-width: 992px) {
+  .services--container {
+    padding-top: 10rem;
+    gap: 1.5rem;
+    min-width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .service--div {
+    min-width: 300px;
+  }
+}

@@ -109,3 +109,37 @@ select {
   height: 60px;
   outline: none;
 }
+
+@media (max-width: 992px) {
+  nav {
+    background-color: black;
+    padding: 10px 0;
+  }
+  .nav--items {
+    display: none;
+  }
+  .content--box h1 {
+    white-space: normal;
+    text-align: center;
+  }
+  .select-boxes {
+    display: block;
+    width: 80%;
+    select {
+      width: 100%;
+    }
+  }
+  .btn--srch {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .content--box h1 {
+    font-size: 2rem;
+  }
+  .select-boxes {
+    margin-top: 4rem;
+  }
+}

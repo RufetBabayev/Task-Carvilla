@@ -6,7 +6,6 @@ footer {
 
 .footer-top {
   display: flex;
-
   justify-content: space-between;
   gap: 40px;
 }
@@ -72,4 +71,21 @@ li:hover {
 hr {
   background-color: #434859;
   height: 2px;
+}
+
+@media (max-width: 992px) {
+  footer {
+    padding: 0 2.8rem;
+  }
+  .footer-top {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+  }
 }
