@@ -43,7 +43,8 @@
   &:hover {
     background-color: var(--color-div-hover);
     a,
-    p {
+    p,
+    h4 {
       color: var(--color-white);
     }
   }
